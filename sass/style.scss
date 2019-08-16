@@ -1,0 +1,21 @@
+/* Global */
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+/*Variables*/
+/*kolor niebieski*/
+$color-one: #0097e6;
+/*kolor zielony*/
+$color-two: #33d9b2;
+/*kolor czerwony*/
+$color-three: #ff5252;
+/*kolor jasny*/
+$color-light: #ffffff;
+/*kolor ciemny*/
+$color-dark: #2c2c54;
+
+$font-text: 'Oranienbaum', serif;
+
+$font-header: 'Berkshire Swash', cursive;
+
+$transition: all 1s;
