@@ -1,2 +1,110 @@
+/* Global */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/*Variables*/
+/*kolor logo*/
+/*kolor jasny*/
+/*kolor ciemny*/
+/*Global style button*/
+.btn-splash {
+  display: inline-block;
+  min-width: 160px;
+  margin: 24px auto 0 auto;
+  padding: 16px;
+  border-radius: 5px;
+  font-family: "PT Serif", serif;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-width: 2px;
+  border-style: solid;
+  background-position: 100% 0;
+  background-size: 300%;
+  background-color: #f39c12;
+  transition: all 1s;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Berkshire Swash", cursive;
+  color: #2c2c54;
+  font-size: 20px;
+  line-height: 1.7;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 96px 0;
+}
+
+/*splash*/
+.splash {
+  height: 100vh;
+  position: relative;
+  background-image: url("/images/night-working.jpeg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.splash-inner {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.firm-logo {
+  font-family: "Pacifico", cursive;
+  color: #f39c12;
+  font-weight: 500px;
+}
+
+.main-nav {
+  font-family: "PT Serif", serif;
+}
+
+.main-nav ul {
+  padding: 0 0;
+  margin: 0 0;
+  list-style-type: none;
+}
+
+.main-nav li {
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.main-nav li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.page-title {
+  color: #ffffff;
+  font-size: 60px;
+  font-family: "PT Serif", serif;
+  margin: 48px 0 0 0;
+  position: relative;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  font-size: 36px;
+  font-family: "Berkshire Swash", cursive;
+  margin: 48px 0 0 0;
+}
 
 /*# sourceMappingURL=style.css.map */

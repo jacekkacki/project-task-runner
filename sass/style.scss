@@ -3,19 +3,109 @@
 	box-sizing: border-box;
 }
 /*Variables*/
-/*kolor niebieski*/
-$color-one: #0097e6;
-/*kolor zielony*/
-$color-two: #33d9b2;
-/*kolor czerwony*/
-$color-three: #ff5252;
+
+/*kolor logo*/
+$color-logo: #f39c12;
 /*kolor jasny*/
 $color-light: #ffffff;
 /*kolor ciemny*/
 $color-dark: #2c2c54;
 
-$font-text: 'Oranienbaum', serif;
+$font-text: 'Berkshire Swash', cursive;
 
-$font-header: 'Berkshire Swash', cursive;
+$font-header: 'PT Serif', serif;
+
+$font-logo: 'Pacifico', cursive;
 
 $transition: all 1s;
+/*Global style button*/
+.btn-splash {
+    display: inline-block;
+    min-width: 160px;
+    margin: 24px auto 0 auto;
+    padding: 16px;
+    border-radius: 5px;
+    font-family: $font-header;
+    font-size: 20px;
+		color: $color-light;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-width: 2px;
+    border-style: solid;
+    background-position: 100% 0;
+    background-size: 300%;
+		background-color: $color-logo;
+    transition: $transition;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: $font-text;
+    color: $color-dark;
+    font-size: 20px;
+    line-height: 1.7;
+}
+.container {
+    max-width: 1140px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.section {
+    padding: 96px 0;
+}
+/*splash*/
+.splash {
+    height: 100vh;
+    position: relative;
+    background-image: url('/images/night-working.jpeg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.splash-inner {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.firm-logo {
+		font-family: $font-logo;
+		color: $color-logo;
+		font-weight: 500px;
+}
+.main-nav {
+		font-family: $font-header;
+
+		ul {
+				padding: 0 0;
+				margin: 0 0;
+				list-style-type: none;
+			}
+		li {
+				position: relative;
+				display: inline-block;
+				margin-right: 20px;
+				a {
+		        text-decoration: none;
+		        color: $color-light;
+		      }
+			}
+}
+
+.page-title {
+    color: $color-light;
+    font-size: 60px;
+    font-family: $font-header;
+    margin: 48px 0 0 0;
+    position: relative;
+}
+.page-subtitle {
+    color: $color-light;
+    font-size: 36px;
+		font-family: $font-text;
+    margin: 48px 0 0 0;
+}
