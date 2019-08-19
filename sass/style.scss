@@ -54,9 +54,6 @@ body {
     padding: 0 20px;
     margin: 0 auto;
 }
-.section {
-    padding: 96px 0;
-}
 /*splash*/
 .splash {
     height: 100vh;
@@ -189,3 +186,41 @@ body {
 			vertical-align: middle;
 		}
 }
+/*Footer*/
+footer {
+        text-align: center;
+        background-color: $color-light;
+				.container {
+						max-height: 10px;
+				}
+
+        ul {
+            background: $color-light;
+            margin: 0 0;
+            li {
+                display: inline-block;
+                font-size: 0;
+                background-color: $color-light;
+                i {
+									font-size: 30px;
+									background: $color-light;
+									width: 30px;
+									height: 30px;
+									line-height: 30px;
+									color: $color-dark;
+									border-radius: 50%;
+									border-style: solid;
+									border-color: $color-light;
+									transition: $transition;
+										&:hover {
+												transform: scale(1.2);
+										}
+                }
+            }
+        }
+ }
+ .copy-right p {
+	 	font-family: $font-header;
+	 	font-size: 18px;
+	 	margin: 40 0 0 0;
+ }
