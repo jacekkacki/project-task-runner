@@ -5,6 +5,7 @@
 
 /*Variables*/
 /*kolor logo*/
+/*kolor portfolio*/
 /*kolor jasny*/
 /*kolor ciemny*/
 /*Global style button*/
@@ -113,7 +114,7 @@ body {
   color: #2c2c54;
   font-size: 60px;
   font-family: "PT Serif", serif;
-  margin: 48px 0 0 0;
+  margin: 24px 0 0 0;
   position: relative;
 }
 
@@ -122,7 +123,7 @@ body {
   font-size: 20px;
   font-family: "PT Serif", serif;
   font-weight: bold;
-  margin: 48px 0 0 0;
+  margin: 24px 0 0 0;
 }
 
 .service i {
@@ -137,7 +138,7 @@ body {
   border-color: #f39c12;
 }
 
-.service h4 {
+.service h2 {
   font-family: "PT Serif", serif;
   font-size: 20px;
   color: #2c2c54;
@@ -147,6 +148,52 @@ body {
   font-family: "PT Serif", serif;
   font-size: 14px;
   color: #2c2c54;
+}
+
+/*Portfolio*/
+.portfolio {
+  background-color: #dfe6e9;
+  padding-top: 40px;
+}
+
+.portfolio-card {
+  background-color: #dfe6e9;
+  margin: 0 0;
+  padding: 0 0;
+}
+
+.portfolio-card h2 {
+  background-color: #ffffff;
+  width: 80%;
+  font-family: "PT Serif", serif;
+  font-size: 30px;
+  object-fit: cover;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 1.5;
+  margin: 0 0;
+  margin-left: 10%;
+}
+
+.portfolio-card p {
+  background-color: #ffffff;
+  width: 80%;
+  font-family: "PT Serif", serif;
+  font-size: 18px;
+  object-fit: cover;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 1.5;
+  margin: 0 0;
+  margin-left: 10%;
+  margin-bottom: 40px;
+}
+
+.portfolio-card img {
+  width: 80%;
+  height: 300px;
+  object-fit: cover;
+  vertical-align: middle;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -6,6 +6,8 @@
 
 /*kolor logo*/
 $color-logo: #f39c12;
+/*kolor portfolio*/
+$color-portfolio: #dfe6e9;
 /*kolor jasny*/
 $color-light: #ffffff;
 /*kolor ciemny*/
@@ -115,7 +117,7 @@ body {
     color: $color-dark;
     font-size: 60px;
     font-family: $font-header;
-    margin: 48px 0 0 0;
+    margin: 24px 0 0 0;
     position: relative;
 }
 .section-subtitle {
@@ -123,7 +125,7 @@ body {
     font-size: 20px;
 		font-family: $font-header;
 		font-weight: bold;
-    margin: 48px 0 0 0;
+    margin: 24px 0 0 0;
 }
 .service i {
 	font-size: 40px;
@@ -136,7 +138,7 @@ body {
 	border-style: solid;
 	border-color: $color-logo;
 }
-.service h4 {
+.service h2 {
 			font-family: $font-header;
 			font-size: 20px;
 			color: $color-dark;
@@ -146,3 +148,44 @@ body {
 			font-size: 14px;
 			color: $color-dark;
 	}
+/*Portfolio*/
+.portfolio {
+		background-color: $color-portfolio;
+		padding-top: 40px;
+}
+.portfolio-card {
+		background-color: $color-portfolio;
+		margin: 0 0;
+		padding: 0 0;
+		h2 {
+			background-color: $color-light;
+			width: 80%;
+			font-family: $font-header;
+			font-size: 30px;
+			object-fit: cover;
+			vertical-align: middle;
+			text-align: center;
+			line-height: 1.5;
+			margin: 0 0;
+			margin-left: 10%;
+		}
+		p {
+			background-color: $color-light;
+			width: 80%;
+			font-family: $font-header;
+			font-size: 18px;
+			object-fit:cover;
+			vertical-align: middle;
+			text-align: center;
+			line-height: 1.5;
+			margin: 0 0;
+			margin-left: 10%;
+			margin-bottom: 40px;
+		}
+		img {
+    	width: 80%;
+    	height: 300px;
+    	object-fit: cover;
+			vertical-align: middle;
+		}
+}
