@@ -68,6 +68,7 @@ body {
 .firm-logo {
   font-family: "Pacifico", cursive;
   color: #f39c12;
+  font-size: 30px;
   font-weight: 500px;
 }
 
@@ -77,7 +78,7 @@ body {
 
 .main-nav ul {
   padding: 0 0;
-  margin: 0 0;
+  margin: 30 0;
   list-style-type: none;
 }
 
@@ -102,9 +103,50 @@ body {
 
 .page-subtitle {
   color: #ffffff;
-  font-size: 36px;
+  font-size: 30px;
   font-family: "Berkshire Swash", cursive;
   margin: 48px 0 0 0;
+}
+
+/*Services*/
+.section-title {
+  color: #2c2c54;
+  font-size: 60px;
+  font-family: "PT Serif", serif;
+  margin: 48px 0 0 0;
+  position: relative;
+}
+
+.section-subtitle {
+  color: #2c2c54;
+  font-size: 20px;
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  margin: 48px 0 0 0;
+}
+
+.service i {
+  font-size: 40px;
+  background: #ffffff;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  color: #f39c12;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #f39c12;
+}
+
+.service h4 {
+  font-family: "PT Serif", serif;
+  font-size: 20px;
+  color: #2c2c54;
+}
+
+.service p {
+  font-family: "PT Serif", serif;
+  font-size: 14px;
+  color: #2c2c54;
 }
 
 /*# sourceMappingURL=style.css.map */
